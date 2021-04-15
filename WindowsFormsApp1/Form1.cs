@@ -26,5 +26,10 @@ namespace WindowsFormsApp1
                 "Программируешь что хочешь!";
            
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox1.BackColor = button1.BackColor;
+        }
     }
 }
